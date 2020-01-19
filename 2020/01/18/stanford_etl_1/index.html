@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>
+    Stanford ETL 小记, 随想 1 | Home | James
+  </title>
+  <meta name="description" content="Code, Books, Travel, Thoughts, Insights">
+  
+  <meta name="keywords" content="
+  notes, Stanford, Stanford ETL
+  ">
+  
+  <meta name="author" content="James Zhang">
+
+  <meta http-equiv="Cache-Control" content="no-transform"/>
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="theme-color" content="#1e2327">
+  <link rel="apple-touch-icon" href="https://github.githubassets.com/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://github.githubassets.com/apple-touch-icon-180x180.png">
+
+  <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/vue/1.0.25-csp/vue.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Home | James" type="application/atom+xml">
+</head>
+
+<body id="replica-app">
+
+<nav class="navbar-wrapper">
+  <div class="navbar">
+    <div class="container clearfix">
+      <a href="/" class="navbar-logo"><i class="fa fa-github"></i></a>
+
+      <div class="navbar-search float-left desktop-only">
+        <div class="navbar-search-form">
+          <label for="gsc-i-id1">This website</label>
+          <div id="google-search">
+            <gcse:search></gcse:search>
+          </div>
+        </div>
+      </div>
+
+      <ul class="navbar-nav float-left">
+        
+        <li><a href="/archives">Archives</a></li>
+        
+        
+        <li><a href="/categories">Categories</a></li>
+        
+        
+        <li><a href="/tags">Tags</a></li>
+        
+        
+        <li class="desktop-only"><a href="/atom.xml" target="_blank">RSS</a></li>
+        
+      </ul>
+
+      <ul class="navbar-nav user-nav float-right desktop-only">
+        <li class="user-nav-notification">
+          <a><span class="user-nav-unread"></span><i class="fa fa-bell"></i></a>
+        </li>
+        <li>
+          <a><i class="fa fa-plus"></i> <i class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="user-nav-logo">
+          <a><img src="/images/avatar.jpeg"> <i class="fa fa-caret-down"></i></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="main-container">
+  <header class="header-wrapper desktop-only">
+  <div class="container header-site-detail">
+    <ul class="header-toolbar">
+      <li class="clearfix">
+        <a href="/archives" class="header-toolbar-left"><i
+                  class="fa fa-file-text"></i> Posts </a>
+        <a href="/archives"
+           class="header-toolbar-right"> 2 </a>
+      </li>
+      <li>
+        <a href="/tags" class="header-toolbar-left"><i
+                  class="fa fa-tags"></i> Tags </a>
+        <a href="/tags"
+           class="header-toolbar-right"> 1 </a>
+      </li>
+      <li>
+        <a href="/categories" class="header-toolbar-left"><i
+                  class="fa fa-folder-open"></i> Categories </a>
+        <a href="/categories"
+           class="header-toolbar-right"> 1 </a>
+      </li>
+    </ul>
+    <h2 class="header-title">
+      <i class="fa fa-book text-muted"></i>
+      <a href="/">Home | James</a>
+      
+      
+    </h2>
+  </div>
+
+  <div class="container">
+    <div class="header-tab-wrapper clearfix">
+      <span class="header-tab header-tab-selected"><i class="fa fa-thumbs-o-up"></i> Like</span>
+      <span class="header-tab"><i class="fa fa-share-alt"></i> Share</span>
+      <span class="header-tab"><i class="fa fa-comments-o"></i> Discussion</span>
+      <span class="header-tab"><i class="fa fa-bookmark-o"></i> Bookmark </span>
+      <span class="header-tab"><i class="fa fa-smile-o"></i> Smile <i class="fa fa-caret-down"></i></span>
+    </div>
+  </div>
+</header>
+
+
+<div class="post-container container">
+  <h3>
+    <i class="fa fa-user-o"></i>
+    James Zhang
+
+    <span class="post-date float-right" title="{{moment(1579374364000).format('MMM DD, YYYY, h:mm:ss A')}}">
+      <i class="fa fa-pencil-square-o"></i>
+      {{moment(1579374364000).fromNow()}}
+    </span>
+  </h3>
+
+  <article class="post-content">
+    <h1>Stanford ETL 小记, 随想 1</h1>
+    <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>Link: <a href="https://ecorner.stanford.edu/events/" target="_blank" rel="noopener">https://ecorner.stanford.edu/events/</a></p>
+<p>Stanford ETL 的全称是 Entrepreneurial Thought Leader Series</p>
+<p>在我 2020 年 1 月 18 日写作本文时，ETL 的形式是这样的：</p>
+<p>每周三，下午，Stanford 都会请一位业界的 guest speaker 去分享。这个分享活动是对外开放的，在能容纳 300 人的 NVIDIA Auditorium，对应了 Stanford 的课程 MS&amp;E 472 （Managing Science &amp; Engineering）。课后还有一个封闭的学生参加的 Seminar （MS&amp;E 178），会把演讲人请到讨论课教室，然后由学生们再做一些深入的提问。同样地周一也有这个 Seminar 的课，学生和老师先行讨论和做功课，给听周三的 formal presentation 和课后提问做准备。</p>
+<p>我现在还在 Facebook 就职，所以周中不太空闲，不过因为实在着迷这类谈话、活动，在周三正巧是 work from home day，于是我早上 7 点前上班，然后 3 点半出发去 Stanford，4 点到 visitor center，然后 4 点半走到教室（学校好大哈哈）。总的来说辛苦但值得。</p>
+<p>这是我第三次来 Stanford 了。</p>
+<p>第一次是我第一次来加州实习（Activision Blizzard Central Tech Online Group），我从 LA 一路开车过来，在 Santa Cruz 休息一晚，第二天搬到 MTV 的 Airbnb，第一件事就是赶紧来 Stanford 朝圣一下。来之前对校园就满心期待，来了之后也确实没有失望，校园面积之大，实在壮观，真是“别人家的校园”，当时我在校园一个人漫步，吃了吃食堂就回去了，只是逛校园略有遗憾的就在于没有人，没有故事，体验就自然没有那么生动了。</p>
+<p>第二次来 Stanford 是次年暑假了，当时我已经接了 offer 还未入职，提前搬来住，是在湾区实习的高中同学叫上我一起去腾讯北美宣传 PCG 的一个活动，就在 Palo Alto，所以来之前就再一起来 Stanford 参观（且先不道腾讯活动，虽然讲增长黑客什么的也是印象深刻）。这次我们直接去了 Rodin 的雕塑群，因为我正巧前一个学期上 Art History 的时候,老师讲了一些 Rodin 的作品和往事，期中地狱之门的一个 copy 就在 Stanford。 我还记得当时老师很幽默，给我们对比了下 Columbia 的 The Thinker statue 和 Stanford 的（一个冰天雪地，一个阳光明媚哈哈,不过我们这次去 Stanford 看的 Thinker 是在博物馆里的那个）。</p>
+<p>如图<br>The Thinker @ Columbia</p>
+<p><img src="/images/Columbia_thinker.jpg" alt="The Thinker @ Columbia"></p>
+<p>The Thinker @ Stanford</p>
+<p><img src="/images/Stanford_thinker.jpg" alt="The Thinker @ Stanford"></p>
+<p>第三次，来听 ETL，也是特别感激，入职之后同组的 Senior 小哥在 Stanford 本硕连读，他从小在加州长大，对这里的 startup，VC 的一些精神也算耳濡目染吧。我就跟他说 Stanfor(GSB) is my dream school，问了他一些情况，有没有什么机会再回到校园听课什么的。他就首先向我介绍了这门 open to public 的课。于是，winter quarter 一开始，我从中国也回来了，是时候开始一段新的旅程与计划了。果然，此次一开进 Stanford，宽而长的大道，两排棕榈树往两边散开，我的鼻子就酸了。</p>
+<h2 id="当天活动"><a href="#当天活动" class="headerlink" title="当天活动"></a>当天活动</h2><p>我参加了一次 live event， 即 2020 年 1 月 15 日的 winter quarter 的 kickoff event， guest speaker 是 Sam Yam， Co-founder and CEO of Patreon</p>
+
+  </article>
+</div>
+
+
+    
+
+
+
+
+</div>
+
+<div class="footer-wrapper container">
+  <footer class="footer clearfix">
+    <div class="clearfix">
+    <a href="http://blog.jczhang.com" class="footer-logo">
+      <i class="fa fa-github"></i>
+    </a>
+    <ul class="footer-social-link">
+      <li>© 2019 James Zhang</li>
+      <li><a href="http://blog.jczhang.com">Home</a></li>
+      
+      <li><a href="https://github.com/zhjch05" target="_blank" rel="noopener">Github</a></li>
+      
+      <li><a href="https://www.linkedin.com/in/zhjch/" target="_blank" rel="noopener">Linkedin</a></li>
+      
+    </ul>
+    <div class="footer-theme-info">
+      Theme <a href="//github.com/sabrinaluo/hexo-theme-replica" target="_blank" rel="noopener">Replica</a>
+      by <a href="//github.com/sabrinaluo" target="_blank" rel="noopener">Hiitea</a> ❤ Powered by Hexo
+    </div>
+    </div>
+    
+  </footer>
+</div>
+
+
+
+
+<script src="/js/main.js"></script>
+
+</body>
+</html>

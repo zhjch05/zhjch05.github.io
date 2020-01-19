@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Home | James</title>
   
-  <subtitle>Code, Books, Travel, Thoughts, Insights</subtitle>
+  <subtitle>A Casual Blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jczhang.com/"/>
-  <updated>2020-01-18T14:57:09.615Z</updated>
+  <updated>2020-01-19T18:04:39.429Z</updated>
   <id>http://blog.jczhang.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Stanford ETL 小记, 随想 1</title>
+    <link href="http://blog.jczhang.com/2020/01/18/stanford_etl_1/"/>
+    <id>http://blog.jczhang.com/2020/01/18/stanford_etl_1/</id>
+    <published>2020-01-18T19:06:04.000Z</published>
+    <updated>2020-01-19T18:04:39.429Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;Link: &lt;a href=&quot;https://ecorner.stanford.edu/events/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="thoughts, notes" scheme="http://blog.jczhang.com/categories/thoughts-notes/"/>
+    
+    
+      <category term="notes, Stanford, Stanford ETL" scheme="http://blog.jczhang.com/tags/notes-Stanford-Stanford-ETL/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

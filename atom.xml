@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.jczhang.com/"/>
-  <updated>2020-01-19T18:04:39.429Z</updated>
+  <updated>2020-01-20T00:00:11.528Z</updated>
   <id>http://blog.jczhang.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Stanford ETL 小记, 随想 1</title>
+    <title>Stanford ETL 1 - 小记, 随想</title>
     <link href="http://blog.jczhang.com/2020/01/18/stanford_etl_1/"/>
     <id>http://blog.jczhang.com/2020/01/18/stanford_etl_1/</id>
     <published>2020-01-18T19:06:04.000Z</published>
-    <updated>2020-01-19T18:04:39.429Z</updated>
+    <updated>2020-01-20T00:00:11.528Z</updated>
     
     <summary type="html">
     
@@ -36,10 +36,16 @@
     </summary>
     
     
-      <category term="thoughts, notes" scheme="http://blog.jczhang.com/categories/thoughts-notes/"/>
+      <category term="thoughts" scheme="http://blog.jczhang.com/categories/thoughts/"/>
+    
+      <category term="notes" scheme="http://blog.jczhang.com/categories/thoughts/notes/"/>
     
     
-      <category term="notes, Stanford, Stanford ETL" scheme="http://blog.jczhang.com/tags/notes-Stanford-Stanford-ETL/"/>
+      <category term="notes" scheme="http://blog.jczhang.com/tags/notes/"/>
+    
+      <category term="Stanford" scheme="http://blog.jczhang.com/tags/Stanford/"/>
+    
+      <category term="Stanford ETL" scheme="http://blog.jczhang.com/tags/Stanford-ETL/"/>
     
   </entry>
   
